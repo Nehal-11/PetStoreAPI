@@ -9,7 +9,7 @@
     "type": {
       "type": "string"
     },
-    "message": {
+    "mes": {
       "type": "string"
     }
   },

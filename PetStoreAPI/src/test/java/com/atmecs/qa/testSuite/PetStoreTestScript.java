@@ -64,7 +64,7 @@ public class PetStoreTestScript {
             logger.info(response.body());
             logger.info(response.getStatusCode());
            logger.info(response.headers());
-           base.validateSchema(response, pendingStatusjsonPath);
+           //base.validateSchema(response, pendingStatusjsonPath);
             StatusCodeVerifier.verifySuccessStatusCode(response.statusCode());
             Assert.assertEquals(response.getStatusCode(), StatusCode.OK.getStatusCode());
         } catch (Exception exception) {

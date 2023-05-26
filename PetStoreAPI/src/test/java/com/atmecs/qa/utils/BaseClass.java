@@ -16,7 +16,7 @@ public class BaseClass {
             logger.info("Schema validation is executed successfully");
         } catch (JsonSchemaValidationException jsonSchemaValidationException) {
             logger.error("schema validation is not executed" + jsonSchemaValidationException);
-        } catch (Exception exception) {
+        } catch (Exception exception) { //not required
             logger.error("schema validation is not executed" + exception);
         }
 

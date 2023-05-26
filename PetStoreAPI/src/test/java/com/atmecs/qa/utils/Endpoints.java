@@ -13,9 +13,7 @@ public class Endpoints {
 
     public static String getByStatusEndPoint = BaseURL() + "/v2/pet/findByStatus"; //get pet by status(sold or pending)
 
-    public static void main(String[] args) {
-        System.out.println(getByIdEndPoint);
-    }
+
 }
 
 

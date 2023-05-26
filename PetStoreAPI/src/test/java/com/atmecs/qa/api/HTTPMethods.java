@@ -20,7 +20,7 @@ public Logger logger =Logger.getLogger(PetStoreTestScript.class);
                 .log().all()
                 .post(URI);
     }
-    public static Response getPetById(String URI){
+    public static Response getPetById(String URI){// rename
         return given()
                 //.multiPart(file)
                 .contentType(ContentType.JSON)
