@@ -1,0 +1,12 @@
+<suite name="Swagger Pet Store">
+    <test name="API tests">
+        <groups>
+            <run>
+                <include name="end-to-end"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.atmecs.qa.testSuite.PetStoreTestScript"/>
+        </classes>
+    </test>
+</suite>
